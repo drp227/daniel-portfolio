@@ -16,7 +16,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     top: 0;
     background-image: url("../images/background-code.jpg");
     background-size: cover;
@@ -119,4 +118,49 @@
   .projects {
     background: black;
   }
+
+  .flex-container {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .run-buddy h3 {
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 24px;
+    margin: 30px;
+    text-decoration: underline;
+  }
+
+  .run-buddy img {
+    border: 5px double #008b8b;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .horiseon h3 {
+    margin-left: 30%;
+  }
+
+  .horiseon img {
+    border: 5px double #008b8b;
+    border-radius: 4px;
+    width: 20%;
+    padding: 5px;
+    margin-left: 25%;
+  }
+
+  .project-3 img {
+    border: 5px double #008b8b;
+    border-radius: 4px;
+    width: 50%;
+  }
+
   
