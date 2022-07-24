@@ -121,7 +121,6 @@
 
   .flex-container {
     display:flex;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
   
@@ -144,23 +143,28 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .horiseon h3 {
-    margin-left: 30%;
+
+  .flex-container-2 {
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
-  .horiseon img {
+  .flex-container-2 h3 {
+    text-align: center;
+  }
+
+  .flex-container-2 img {
+    width: auto;
     border: 5px double #008b8b;
     border-radius: 4px;
-    width: 20%;
-    padding: 5px;
-    margin-left: 25%;
+    height: 200px;
   }
 
-  .project-3 img {
-    border: 5px double #008b8b;
-    border-radius: 4px;
-    width: 50%;
+  .flex-container-3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
-
   
