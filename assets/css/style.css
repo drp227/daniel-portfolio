@@ -9,7 +9,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("../images/background-code.jpg");
   }
-  /* STYLE THE HEADER */
+  /* STYLE THE HEADER AND NAV */
   header {
     padding: 60px 35px;
     background-color: white;
@@ -50,7 +50,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    list-style: none;s
+    list-style: none;
   }
   
   header nav ul li a {
@@ -67,6 +67,8 @@
     border-radius: 25px;
     text-shadow: none;
   }
+  /* HEADER AND NAV STYLES END */
+
   /* STYLE THE MAIN SECTION WITH PHOTO AND BACKGROUND */
   main {
     background-image: url('../images/software-engineering.jpg');
@@ -83,27 +85,16 @@
     border: 5px solid #ddd;
     border-radius: 100px;
   }
+  /* MAIN SECTION STYLES END */
+
   /* STYLE ALL SECTION TAGS */
   section {
     padding: 60px;
   }
+
   /* STYLE THE ABOUT ME SECTION */
   .about {
     background-image: url('../images/about-me-background.jpg'); 
-  }
-
-  .flex-row {
-    display: flex;
-  }
-
-  .section-title {
-    font-size: 48px;
-    border-bottom: 5px solid;
-    color: white;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%
   }
 
   .about p {
@@ -114,6 +105,8 @@
     font-size: 30px;
     text-align: center;
   }
+  /* ABOUT ME STYLES END */
+
   /* STYLE THE PROJECTS SECTION */
   .projects {
     background-image: url('../images/project-background.jpg');
@@ -194,6 +187,8 @@
     border-radius: 25px;
     text-shadow: none;
   }
+  /* PROJECTS SECTION STYLES END */
+
   /* STYLE THE CONTACT ME SECTION */
   .contact {
     background: #008b8b;
@@ -214,6 +209,33 @@
   .flex-container-4 h3 {
     text-align: center;
   }
+/* CONTACT ME SECTION STYLES END */
+
+/* STYLE THE FOOTER */
+  footer {
+    background-image: url("../images/background-code.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 60px;
+  }
+/* FOOTER STYLES END */
+
+/* UTILITIES */
+  .flex-row {
+    display: flex;
+  }
+
+  .section-title {
+    font-size: 48px;
+    border-bottom: 5px solid;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%
+  }
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
@@ -247,12 +269,14 @@
     line-height: 2;
   }
 }
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   section {
     padding: 30px 15px;
   }
 }
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   header h1 {
