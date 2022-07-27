@@ -11,5 +11,5 @@ Thank you so much for your time and consideration.
 ![Portfolio Screenshot](https://user-images.githubusercontent.com/109008159/181360345-f9c70b82-6b33-4846-a426-f15077eecfb5.png)
 
 ## Website
-https://github.com/drp227/daniel-portfolio/
+https://drp227.github.io/daniel-portfolio/
 
