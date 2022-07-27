@@ -9,7 +9,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("../images/background-code.jpg");
   }
-
+  /* STYLE THE HEADER */
   header {
     padding: 60px 35px;
     background-color: white;
@@ -68,7 +68,7 @@
     border-radius: 25px;
     text-shadow: none;
   }
-
+  /* STYLE THE MAIN SECTION WITH PHOTO AND BACKGROUND */
   main {
     background-image: url('../images/software-engineering.jpg');
     background-size: cover;
@@ -88,7 +88,7 @@
   section {
     padding: 60px;
   }
-
+  /* STYLE THE ABOUT ME SECTION */
   .about {
     background-image: url('../images/about-me-background.jpg'); 
   }
@@ -115,7 +115,7 @@
     font-size: 30px;
     text-align: center;
   }
-
+  /* STYLE THE PROJECTS SECTION */
   .projects {
     background-image: url('../images/project-background.jpg');
   }
@@ -143,7 +143,12 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    transition: 0.5s;
+  }
+
+  .run-buddy img:hover {
+    background: #008b8b; 
+    border-radius: 25px;
+    text-shadow: none;
   }
 
   .flex-container-2 {
@@ -164,6 +169,12 @@
     height: 200px;
   }
 
+  .flex-container-2 img:hover {
+    background: #008b8b; 
+    border-radius: 25px;
+    text-shadow: none;
+  }
+
   .flex-container-3 {
     display: flex;
     justify-content: space-evenly;
@@ -181,9 +192,19 @@
     height: 200px;
   }
 
+  .flex-container-3 img:hover {
+    background: #008b8b;
+    border-radius: 25px;
+    text-shadow: none;
+  }
+  /* STYLE THE CONTACT ME SECTION */
   .contact {
     background: #008b8b;
     padding: 80px;
+  }
+
+  .contact h3 {
+    font-size: 24px;
   }
 
 
