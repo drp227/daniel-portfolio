@@ -84,7 +84,7 @@
     border: 5px solid #ddd;
     border-radius: 100px;
   }
-
+  /* STYLE ALL SECTION TAGS */
   section {
     padding: 60px;
   }
@@ -118,11 +118,13 @@
   /* STYLE THE PROJECTS SECTION */
   .projects {
     background-image: url('../images/project-background.jpg');
+    background-size: cover;
   }
 
   .flex-container {
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .run-buddy h3 {
@@ -136,13 +138,9 @@
   }
 
   .run-buddy img {
+    width: 100%;
     border: 5px double #008b8b;
     border-radius: 4px;
-    padding: 5px;
-    width: 50%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .run-buddy img:hover {
@@ -207,6 +205,53 @@
     font-size: 24px;
   }
 
+  .flex-container-4 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 5%;
+  }
 
+  .flex-container-4 h3 {
+    text-align: center;
+  }
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 15px;
+    justify-content: center;
+    position: relative;
+  }
 
-  
+  header h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .section-title {
+    width: 95%;
+  }
+}
