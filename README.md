@@ -3,7 +3,7 @@
 ## Contents
 Here is my portfolio for your review. 
 
-Please contact me for any questions, concerns, or if you would like any business references. 
+Please contact me with any questions, concerns, or if you would like any business references. 
 
 Thank you so much for your time and consideration.
 
